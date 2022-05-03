@@ -1,0 +1,1 @@
+C:\androidproject\UseOpenCVwithCMake\sdk\build\intermediates\cxx\RelWithDebInfo\6o2e506e\obj\arm64-v8a

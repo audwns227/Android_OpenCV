@@ -1,0 +1,1 @@
+C:\androidproject\UseOpenCVwithCMake\sdk\build\intermediates\cxx\Debug\656a3q6d\obj\arm64-v8a
