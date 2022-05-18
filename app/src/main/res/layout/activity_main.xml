@@ -3,20 +3,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:layout_gravity="center_horizontal"
-        android:text="캡쳐" />
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
 
     <org.opencv.android.JavaCameraView
-        android:layout_width="match_parent"
+        android:id="@+id/activity_surface_view"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:id="@+id/activity_surface_view" />
+        android:layout_gravity="top"
+        android:layout_weight="100" />
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="캡쳐" />
 
+        <TextView
+            android:id="@+id/radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp" />
 
 </LinearLayout>
